@@ -54,7 +54,7 @@
 
 1. 克隆仓库：
 ```bash
-git clone https://github.com/你的用户名/macos-dev-setup.git
+git clone https://github.com/zhen-ke/macos-dev-setup.git
 ```
 
 2. 进入目录：
@@ -77,7 +77,7 @@ chmod +x install.sh
 如果你不想克隆整个仓库，可以直接下载脚本：
 
 ```bash
-curl -o install.sh https://raw.githubusercontent.com/你的用户名/macos-dev-setup/main/install.sh
+curl -o install.sh https://raw.githubusercontent.com/zhen-ke/macos-dev-setup/main/install.sh
 chmod +x install.sh
 ./install.sh
 ```
