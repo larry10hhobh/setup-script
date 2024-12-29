@@ -36,14 +36,6 @@
 - [x] TLDR
 - [x] JQ
 
-### Node.js 工具
-- [x] pnpm
-- [x] yarn
-- [x] typescript
-- [x] @vue/cli
-- [x] serve
-- [x] http-server
-
 ## 🚀 快速开始
 
 ### 安装prerequisites
@@ -54,12 +46,12 @@
 
 1. 克隆仓库：
 ```bash
-git clone https://github.com/zhen-ke/macos-dev-setup.git
+git clone xxx
 ```
 
 2. 进入目录：
 ```bash
-cd macos-dev-setup
+cd setup-script
 ```
 
 3. 添加执行权限：
@@ -77,7 +69,7 @@ chmod +x install.sh
 如果你不想克隆整个仓库，可以直接下载脚本：
 
 ```bash
-curl -o install.sh https://raw.githubusercontent.com/zhen-ke/macos-dev-setup/main/install.sh
+curl -o install.sh https://raw.githubusercontent.com/xxx/main/install.sh
 chmod +x install.sh
 ./install.sh
 ```
@@ -101,12 +93,6 @@ chmod +x install.sh
 - Git 邮箱
 
 这些信息将被用于配置全局 Git 设置。
-
-### Node.js 配置
-
-- 通过 nvm 安装最新的 LTS 版本
-- 配置 npm 全局包
-- 设置 npm 镜像（可选）
 
 ## 🔧 自定义配置
 
@@ -169,30 +155,3 @@ export HOMEBREW_CORE_GIT_REMOTE="..."  # 设置 brew-core git 源
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-
-## 🤝 贡献指南
-
-1. Fork 本仓库
-2. 创建特性分支：`git checkout -b my-new-feature`
-3. 提交改动：`git commit -am 'Add some feature'`
-4. 推送分支：`git push origin my-new-feature`
-5. 提交 Pull Request
-
-## 📄 协议
-
-本项目基于 MIT 协议开源，详情请参阅 [LICENSE](LICENSE) 文件。
-
-## 🎉 致谢
-
-- [Homebrew](https://brew.sh/)
-- [Oh My Zsh](https://ohmyz.sh/)
-- [Node Version Manager](https://github.com/nvm-sh/nvm)
-- 所有贡献者和用户
-
-## 💡 问题反馈
-
-如果你发现任何问题或有改进建议，请：
-
-1. 查看 [Issues](https://github.com/zhen-ke/macos-dev-setup/issues) 是否已有相关问题
-2. 创建新的 Issue 描述你的问题或建议
-3. 提供详细的环境信息和复现步骤

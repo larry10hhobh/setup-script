@@ -272,7 +272,7 @@ install_dev_tools() {
     brew install tree wget tldr jq
     
     # 安装全局 npm 包
-    npm install -g pnpm yarn typescript @vue/cli serve http-server
+    # npm install -g pnpm yarn typescript @vue/cli serve http-server
     
     check_success "开发工具安装"
 }
@@ -287,7 +287,7 @@ main() {
     get_user_info
     
     # 开始安装
-    install_xcode_tools
+    # install_xcode_tools
     install_homebrew
     install_zsh
     install_oh_my_zsh
